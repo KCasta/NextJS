@@ -1,0 +1,90 @@
+/* Home.module.css */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.heroText h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.heroText p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.servicesButton,
+.videoButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.servicesButton {
+  background-color: #28a745;
+  color: white;
+}
+
+.videoButton {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.videoButton:hover {
+  background-color: #28a745;
+  color: black;
+}
+
+.heroButtons {
+  margin-top: 1.5rem;
+}
+
+.heroButtons button {
+  margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heroText {
+    margin-bottom: 20px;
+  }
+
+  .heroText h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heroText h1 {
+    font-size: 1.75rem;
+  }
+
+  .heroText p {
+    font-size: 1rem;
+  }
+
+  .heroButtons button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

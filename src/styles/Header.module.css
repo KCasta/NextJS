@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px 40px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.navLinks {
+  list-style-type: none;
+  display: flex;
+}
+
+.navLinks li {
+  margin-right: 20px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navLinks a:hover {
+  color: wheat;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.quoteButton {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}

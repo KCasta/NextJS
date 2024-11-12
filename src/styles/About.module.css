@@ -1,0 +1,21 @@
+.heroSection {
+  background-image: url("/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroText h1 {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.servicesSection {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 20px;
+}
